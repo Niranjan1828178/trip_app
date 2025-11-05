@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "serve:api": "json-server --watch src/assets/db.json --port 4000","tail":"npx @tailwindcss/cli -i ./src/index.css -o ./src/output.css --watch",
+    "serve:api": "json-server --watch src/assets/db.json --port 4000",
+    "tail": "npx @tailwindcss/cli -i ./src/index.css -o ./src/output.css --watch",
     "dev:all": "concurrently \"npm run dev\" \"npm run serve:api\" \"npm run tail\"",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "start": "vite preview --host --port $PORT"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.16",
