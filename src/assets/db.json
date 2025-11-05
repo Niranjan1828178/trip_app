@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "demo@user.com",
+      "name": "Demo User",
+      "password": "demo123"
+    },
+    {
+      "name": "Niranjan",
+      "email": "niru@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "vijay",
+      "email": "vijay@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "bookings": [
+    {
+      "userId": 2,
+      "tripId": 5,
+      "tripName": "New York City Break",
+      "destination": "New York, USA",
+      "numTravelers": 2,
+      "startDate": "2025-11-13",
+      "totalPrice": 3000,
+      "date": "2025-11-05T11:17:35.946Z",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "tripId": 7,
+      "tripName": "Greek Islands Explorer",
+      "destination": "Santorini, Greece",
+      "numTravelers": 1,
+      "startDate": "2025-11-14",
+      "totalPrice": 2200,
+      "date": "2025-11-05T11:17:48.828Z",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "tripId": 30,
+      "tripName": "Kerala Backwaters",
+      "destination": "Kerala, India",
+      "numTravelers": 1,
+      "startDate": "2025-11-30",
+      "totalPrice": 1300,
+      "date": "2025-11-05T12:18:52.800Z",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "tripId": 3,
+      "tripName": "Swiss Alps Getaway",
+      "destination": "Interlaken, Switzerland",
+      "numTravelers": 7,
+      "startDate": "2025-11-10",
+      "totalPrice": 12600,
+      "date": "2025-11-05T12:19:19.723Z",
+      "id": 4
+    }
+  ]
+}
