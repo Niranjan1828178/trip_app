@@ -27,7 +27,7 @@ export default function SignUp({ onSignUp }) {
       console.error(err);
       const msg = err?.response?.status
         ? `Sign up failed (server responded ${err.response.status})`
-        : 'Sign up failed (could not reach API at http://localhost:4000)';
+        : 'Sign up failed (could not reach API )';
       alert(msg);
     } finally {
       setLoading(false);

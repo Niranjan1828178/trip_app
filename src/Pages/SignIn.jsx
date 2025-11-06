@@ -25,7 +25,7 @@ export default function SignIn({ onLogin }) {
       console.error(err);
       const msg = err?.response?.status
         ? `Sign in failed (server responded ${err.response.status})`
-        : 'Sign in failed (could not reach API at http://localhost:4000)';
+        : 'Sign in failed (could not reach API )';
       alert(msg);
     } finally {
       setLoading(false);
