@@ -180,7 +180,7 @@ export default function App() {
       <div className="min-h-screen flex flex-col bg-gradient-to-b from-slate-50 to-white">
         <header className="sticky top-0 z-40 bg-white/70 backdrop-blur-md border-b border-slate-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
-            <Link to="/" className="text-xl font-bold text-slate-900">Trip Planner</Link>
+            <Link to="/" className="text-xl font-bold text-slate-900">GOBOOK</Link>
             <nav className="flex items-center gap-4">
               <Link to="/" className="text-sm text-slate-700 hover:text-slate-900">Explore</Link>
               {user ? (
